@@ -88,6 +88,13 @@ public class Main {
         var staffMembers = staffWorkhours / oneStaffMember;
         System.out.println("Всего работников в компании " + staffMembers);
 
+        var staffGroup2 = 94;
+        System.out.println(staffGroup2);
+        var staffGroup2WorkHours = staffGroup2 * oneStaffMember;
+        System.out.println("Часы работы 2ой группы " + staffGroup2WorkHours + "часов!");
+        var totalWorkHours = staffWorkhours + staffGroup2WorkHours;
+        System.out.println("Общие часы работы 2х групп " + totalWorkHours + " часов!");
+
 
 
     }
